@@ -5,5 +5,6 @@ public class DatabasePersistence implements SalaryPersistence {
     @Override
     public void save(int salary) {
         // Saves the salary to database
+        System.out.println("Saving to database...");
     }
 }
