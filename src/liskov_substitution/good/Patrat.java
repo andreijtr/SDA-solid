@@ -11,4 +11,11 @@ public class Patrat extends FormaGeometrica {
     public int calculeazaAria() {
         return lungimeLatura * lungimeLatura;
     }
+
+    @Override
+    public String toString() {
+        return "Patrat{" +
+                "lungimeLatura=" + lungimeLatura +
+                '}';
+    }
 }

@@ -2,15 +2,16 @@ package liskov_substitution.bad;
 
 public class Patrat extends Dreptunghi {
 
-    public int lungimeLatura;
-
-    public Patrat(int lungimeLatura) {
-        this.lungimeLatura = lungimeLatura;
-        latime = lungimeLatura;
-        lungime = lungimeLatura;
+    public Patrat(int latura) {
+        latime = latura;
+        lungime = latura;
     }
 
-    public int calculeazaAria() {
-        return lungimeLatura * lungimeLatura;
+    @Override
+    public String toString() {
+        return "Patrat{" +
+                "latime=" + latime +
+                ", lungime=" + lungime +
+                '}';
     }
 }

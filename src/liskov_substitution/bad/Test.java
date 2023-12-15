@@ -12,7 +12,7 @@ public class Test {
 
         for (int i = 0; i < formeGeometriceDreptunghiulare.length; i++) {
             int aria = formeGeometriceDreptunghiulare[i].calculeazaAria();
-            System.out.println(aria);
+            System.out.println("aria pentru " + formeGeometriceDreptunghiulare[i] + " este " + aria);
         }
     }
 }

@@ -12,7 +12,7 @@ public class Test {
 
         for (int i = 0; i < formeGeometrice.length; i++) {
             int aria = formeGeometrice[i].calculeazaAria();
-            System.out.println(aria);
+            System.out.println("aria pentru " + formeGeometrice[i] + " este " + aria);
         }
     }
 }
